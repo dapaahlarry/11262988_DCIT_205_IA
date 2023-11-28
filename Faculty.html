@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        header .logo {
+            color: #333;
+            font-size: 24px;
+        }
+
+        header .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header .menu li {
+            margin-left: 20px;
+        }
+
+        header .menu li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        header .menu li a:hover {
+            color: #666;
+        }
+
+        .faculty-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .faculty-member {
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+        }
+
+        .faculty-member img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #2C2A58;
+            color: white;
+            padding: 20px;
+            display: block;
+            justify-content: space-between;
+        }
+
+        footer ul {
+            list-style-type: none;
+
+            display: block;
+        }
+
+        footer ul li {
+            margin-left: 20px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer ul li a:hover {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            
+            <a href="HomePage.html#"><img src="images/logo.png" alt="logo" width="250"></a>
+        </div>
+        <ul class="menu">
+            <li><a href="HomePage.html#">Home</a></li>
+            <li><a href="About.html#">About</a></li>
+            <li><a href="Faculty.html#">Faculty</a></li>
+            <li><a href="Event.html#">Events</a></li>
+            <li><a href="Contact.html#">Contact</a></li>
+        </ul>
+    </header>
+
+    <h1 style="margin-left: 500px;">Our Faculty</h1>
+    <div class="faculty-container">
+        
+        <div class="faculty-member">
+            <img src="images/faculty1.jpg" alt="Faculty 1">
+            <h2>Mark Atta Mensah</h2>
+            <p>Level 100 Course Advisor</p>
+        </div>
+    
+        <div class="faculty-member">
+            <img src="images/faculty3.jpg" alt="Faculty 2">
+            <h2>Abdullai Aziz Dwumfuor</h2>
+            <p>Lecturer</p>
+        </div>
+    
+        <div class="faculty-member">
+            <img src="images/faculty2.jpg" alt="Faculty 3">
+            <h2>Michael Soli</h2>
+            <p>Lecturer</p>
+        </div>
+    </div>
+
+    <footer>
+        <div style="display: flex; margin-left: 400px;">
+        <ul>
+            <h2>Academic</h2>
+            <li><a href="Courses.html#">Courses</a></li>
+            <li><a href="Gallery.html#">Gallery</a></li>
+            <li><a href="Complaint.html#">Complaint</a></li>
+            <li><a href="Location.html#">Location</a></li>
+            <li><a href="Event.html#">Events</a></li>
+        </ul>
+        <ul>
+            <h2>Other Information</h2>
+            <li><a href="About.html#">About DCS</a></li>
+            <li><a href="Faculty.html#">Faculty</a></li>
+            <li><a href="Academic_Calendar.html#">Events</a></li>
+            <li><a href="Contact.html#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="copyright" style="margin-left: 450px; color: cyan;">
+        <p>&copy; 2023 University. All rights reserved.</p>
+    </div>
+    </footer>
+</body>
+</html>
