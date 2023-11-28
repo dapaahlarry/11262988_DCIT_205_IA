@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        header .logo {
+            color: #333;
+            font-size: 24px;
+        }
+
+        header .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header .menu li {
+            margin-left: 20px;
+        }
+
+        header .menu li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        header .menu li a:hover {
+            color: #666;
+        }
+
+        #contactbutton {
+            color: white;
+        }
+
+        #contactbutton:visited {
+            color: white;
+        }
+
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .link-section {
+            margin-bottom: 40px;
+        }
+
+        .link-section img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .read-more {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #2C2A58;
+            color: white;
+            padding: 20px;
+            display: block;
+            justify-content: space-between;
+        }
+
+        footer ul {
+            list-style-type: none;
+
+            display: block;
+        }
+
+        footer ul li {
+            margin-left: 20px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer ul li a:hover {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            
+            <a href="HomePage.html#"><img src="images/logo.png" alt="logo" width="250"></a>
+        </div>
+        <ul class="menu">
+            <li><a href="HomePage.html#">Home</a></li>
+            <li><a href="About.html#">About</a></li>
+            <li><a href="Faculty.html#">Faculty</a></li>
+            <li><a href="Event.html#">Events</a></li>
+            <li><a href="Contact.html#">Contact</a></li>
+        </ul>
+    </header>
+
+    <div style="padding: 50px; text-align: center;">
+        <h1>Contact Information</h1>
+        <div style="display: flex; justify-content: space-around;">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <img src="images/num.png" alt="phone" width="50">
+                <h2>Phone Number</h2>
+                <p>+233 501 382 035</p>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <img src="images/email.png" alt="email" width="50">
+                <h2>Email</h2>
+                <p>dcs@ug.edu.gh</p>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <img src="images/insta.png" alt="instagram" width="50">
+                <h2>Instagram</h2>
+                <p><button style="color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); text-decoration: none; border: none; padding: 10px 20px; cursor: pointer;"><a id="contactbutton" href="https://www.instagram.com/explore/locations/468119891/university-of-ghana/" style="text-decoration: none;">VISIT</a></button></p>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <img src="images/x.png" alt="twitter" width="50">
+                <h2>Twitter (X)</h2>
+               
+                <p><button style="color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); text-decoration: none; border: none; padding: 10px 20px; cursor: pointer;"><a id="contactbutton" href="https://www.instagram.com/explore/locations/468119891/university-of-ghana/" style="text-decoration: none;">VISIT</a></button></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div style="display: flex; margin-left: 400px;">
+        <ul>
+            <h2>Academic</h2>
+            <li><a href="Courses.html#">Courses</a></li>
+            <li><a href="Gallery.html#">Gallery</a></li>
+            <li><a href="Complaint.html#">Complaint</a></li>
+            <li><a href="Location.html#">Location</a></li>
+            <li><a href="Event.html#">Events</a></li>
+        </ul>
+        <ul>
+            <h2>Other Information</h2>
+            <li><a href="About.html#">About DCS</a></li>
+            <li><a href="Faculty.html#">Faculty</a></li>
+            <li><a href="Academic_Calendar.html#">Events</a></li>
+            <li><a href="Contact.html#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="copyright" style="margin-left: 450px; color: cyan;">
+        <p>&copy; 2023 University. All rights reserved.</p>
+    </div>
+    </footer>
+</body>
+</html>
