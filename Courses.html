@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        header .logo {
+            color: #333;
+            font-size: 24px;
+        }
+
+        header .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header .menu li {
+            margin-left: 20px;
+        }
+
+        header .menu li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        header .menu li a:hover {
+            color: #666;
+        }
+
+
+        .courses-container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .computer-science,
+        .information-technology {
+            max-width: 400px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        .course-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .course-list li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #2C2A58;
+            color: white;
+            padding: 20px;
+            display: block;
+            justify-content: space-between;
+        }
+
+        footer ul {
+            list-style-type: none;
+
+            display: block;
+        }
+
+        footer ul li {
+            margin-left: 20px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer ul li a:hover {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            
+            <a href="HomePage.html#"><img src="images/logo.png" alt="logo" width="250"></a>
+        </div>
+        <ul class="menu">
+            <li><a href="HomePage.html#">Home</a></li>
+            <li><a href="About.html#">About</a></li>
+            <li><a href="Faculty.html#">Faculty</a></li>
+            <li><a href="Event.html#">Events</a></li>
+            <li><a href="Contact.html#">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="courses-container">
+        <div class="computer-science">
+            <h2>Computer Science</h2>
+            <div class="course-level">
+                <h2>Level 100 </h2>
+                <ul class="course-list">
+                    <h3>SEM 1</h3>
+                    <li>[UGRC 150] - Critical Thinking and Practical Reasoning</li>
+                    <li>[MATH 121] - Algebra and Trigonometry</li>
+                    <li>[MATH 123] - Vectors and Geometry</li>
+                    <li>[DCIT 101] - Introduction to Computer Science</li>
+                    <li>[DCIT 103] - Office Productivity Tools</li>
+                    <li>[STAT 111] - Introduction to Statistics and Probability I</li>
+                    <br>
+                    <h3>SEM 2</h3>
+                    <li>[UGRC 110] - Academic Writing I</li>
+                    <li>[UGRC 131-136] - Understanding Human Society</li>
+                    <li>[MATH 122] - Calculus I</li>
+                    <li>[MATH 126] - Algebra and Geometry</li>
+                    <li>[STAT 112] - Introduction to Statistics and Probability II</li>
+                    <li>[DCIT 104] - Programming</li>
+                    <li>[DCIT 102] - Computer Hardware Fund. and Circuits</li>
+
+                    <!-- Add more courses as needed -->
+                </ul>
+
+                <br>
+                <br>
+
+                <h2>Level 200 </h2>
+                <ul class="course-list">
+                    <h3>SEM 1</h3>
+                    <li>[UGRC 210] - Academic Writing II</li>
+                    <li>[DCIT 201] - Programming I</li>
+                    <li>[DCIT 203] - Digital and Logic Systems Design</li>
+                    <li>[DCIT 205] - Multi Media and Web Design</li>
+                    <li>[DCIT 207] - Computer Architecture & Organisation</li>
+                    <li>[MATH 223] - Calculus II</li>
+
+                    <br>
+                    <h3>SEM 2</h3>
+                    <li>[UGRC 220] - Introduction to African Studies</li>
+                    <li>[DCIT 202] - Mobile Application Development</li>
+                    <li>[DCIT 204] - Data Structures & Algorithm I</li>
+                    <li>[DCIT 206] - Systems Administration</li>
+                    <li>[DCIT 208] - Software Engineering</li>
+                    <li>[DCIT 212] - Numerical and Computational Methods</li>
+                    <!-- Add more courses as needed -->
+                </ul>
+            </div>
+            
+            <!-- Add Level 200, Level 300, Level 400 sections as needed -->
+        </div>
+    
+        <div class="information-technology">
+            <h2>Information Technology</h2>
+            <div class="course-level">
+                <h2>Level 100</h2>
+                <ul class="course-list">
+                    <h3>SEM 1</h3>
+                    <li>[UGRC 150] - Critical Thinking and Practical Reasoning</li>
+                    <li>[DCIT 101] - Introduction to Computer Science</li>
+                    <li>[DCIT 103] - Office Productivity Tools</li>
+                    <li>[DCIT 105] - Mathematics for IT Professionals</li>
+                    <li>[STAT 111] - Introduction to Statistics and Probability I</li>
+                    <li><strong>ELECTIVES:</strong></li>
+                    <li>[MATH 121] - Algebra and Trigonometry</li>
+                    <li>[MATH 123] - Vectors and Geometry</li>
+                    <li>[ECON 101] - Introduction to Economics I</li>
+                    <br>
+                    <h3>SEM 2</h3>
+                <li>[UGRC 110] - Academic Writing I</li>
+                <li>[UGRC 131-136] - Understanding Human Society</li>
+                <li>[MATH 122] - Calculus I</li>
+                <li>[MATH 126] - Algebra and Geometry</li>
+                <li>[STAT 112] - Introduction to Statistics and Probability II</li>
+                <li>[DCIT 104] - Programming</li>
+                <li>[DCIT 102] - Computer Hardware Fund. and Circuits</li>
+
+                    <!-- Add more courses as needed -->
+
+                    <br>
+                <br>
+
+                <h2>Level 200 </h2>
+                <ul class="course-list">
+                    <h3>SEM 1</h3>
+                    <li>[UGRC 210] - Academic Writing II</li>
+                    <li>[DCIT 201] - Programming I</li>
+                    <li>[DCIT 203] - Digital and Logic Systems Design</li>
+                    <li>[DCIT 205] - Multi Media and Web Design</li>
+                    <li>[DCIT 207] - Computer Architecture & Organisation</li>
+                    <li>[DCIT 209] - E-Business Architectures</li>
+
+                    <br>
+                    <h3>SEM 2</h3>
+                    <li>[UGRC 220] - Introduction to African Studies</li>
+                    <li>[DCIT 202] - Mobile Application Development</li>
+                    <li>[DCIT 204] - Data Structures & Algorithm I</li>
+                    <li>[DCIT 206] - Systems Administration</li>
+                    <li>[DCIT 208] - Software Engineering</li>
+                    <li><strong>ELECTIVES:</strong></li>
+                    <li>[DCIT 200] - Internship</li>
+                    <li>[DCIT 212] - Numerical and Computational Methods</li>
+                    <li>[DCIT 214] - Information Modeling and Specification</li>
+
+                    <!-- Add more courses as needed -->
+                </ul>
+                </ul>
+            </div>
+            
+            <!-- Add Level 200, Level 300, Level 400 sections as needed -->
+        </div>
+    </div>
+
+
+    <footer>
+        <div style="display: flex; margin-left: 400px;">
+        <ul>
+            <h2>Academic</h2>
+            <li><a href="Courses.html#">Courses</a></li>
+            <li><a href="Gallery.html#">Gallery</a></li>
+            <li><a href="Complaint.html#">Complaint</a></li>
+            <li><a href="Location.html#">Location</a></li>
+            <li><a href="Event.html#">Events</a></li>
+        </ul>
+        <ul>
+            <h2>Other Information</h2>
+            <li><a href="About.html#">About DCS</a></li>
+            <li><a href="Faculty.html#">Faculty</a></li>
+            <li><a href="Academic_Calendar.html#">Events</a></li>
+            <li><a href="Contact.html#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="copyright" style="margin-left: 450px; color: cyan;">
+        <p>&copy; 2023 University. All rights reserved.</p>
+    </div>
+    </footer>
+</body>
+</html>
